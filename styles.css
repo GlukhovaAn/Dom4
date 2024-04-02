@@ -1,0 +1,50 @@
+.parent {
+    position: relative;
+  }
+  
+  .slider {
+    border-radius: 5px;
+    background: transparent;
+    width: 310px;
+    height: 15px;
+    margin: 25px;
+    position: absolute;
+  }
+  
+  .thumb {
+    width: 10px;
+    height: 25px;
+    border-radius: 3px;
+    position: relative;
+    left: 0;
+    top: -5px;
+    background: rgb(190, 106, 179);
+    cursor: pointer;
+  }
+  
+  .number {
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .slider2 {
+    width: 310px;
+    height: 15px;
+    margin: 25px;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+  }
+  
+  .sliderRight {
+    background: #de4c9c;
+    height: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .sliderLeft {
+    background: #b6acac;
+    height: 15px;
+    border-radius: 5px;
+  }
